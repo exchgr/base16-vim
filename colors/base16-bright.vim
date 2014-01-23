@@ -209,15 +209,15 @@ call <SID>hi("SpellCap",     "", s:gui00, "", s:cterm00, "undercurl")
 call <SID>hi("SpellRare",    "", s:gui00, "", s:cterm00, "undercurl")
 
 " Additional Diff Highlighting
-call <SID>hi("DiffAdd",      s:gui0B, s:gui00, s:cterm0B, s:cterm00, "")
-call <SID>hi("DiffChange",   s:gui0D, s:gui00, s:cterm0D, s:cterm00, "")
+call <SID>hi("DiffAdd",      s:gui00, s:gui0B, s:cterm00, s:cterm0B, "")
+call <SID>hi("DiffChange",   s:gui00, s:gui0D, s:cterm00, s:cterm0D, "")
 call <SID>hi("DiffDelete",   s:gui08, s:gui00, s:cterm08, s:cterm00, "")
-call <SID>hi("DiffText",     s:gui0D, s:gui00, s:cterm0D, s:cterm00, "")
-call <SID>hi("DiffAdded",    s:gui0B, s:gui00, s:cterm0B, s:cterm00, "")
-call <SID>hi("DiffFile",     s:gui08, s:gui00, s:cterm08, s:cterm00, "")
-call <SID>hi("DiffNewFile",  s:gui0B, s:gui00, s:cterm0B, s:cterm00, "")
-call <SID>hi("DiffLine",     s:gui0D, s:gui00, s:cterm0D, s:cterm00, "")
-call <SID>hi("DiffRemoved",  s:gui08, s:gui00, s:cterm08, s:cterm00, "")
+call <SID>hi("DiffText",     s:gui00, s:gui0D, s:cterm00, s:cterm0D, "")
+call <SID>hi("DiffAdded",    s:gui00, s:gui0B, s:cterm00, s:cterm0B, "")
+call <SID>hi("DiffFile",     s:gui00, s:gui08, s:cterm00, s:cterm08, "")
+call <SID>hi("DiffNewFile",  s:gui00, s:gui0B, s:cterm00, s:cterm0B, "")
+call <SID>hi("DiffLine",     s:gui00, s:gui0D, s:cterm00, s:cterm0D, "")
+call <SID>hi("DiffRemoved",  s:gui00, s:gui08, s:cterm00, s:cterm08, "")
 
 " Ruby Highlighting
 call <SID>hi("rubyAttribute",               s:gui0D, "", s:cterm0D, "", "")
@@ -264,7 +264,7 @@ call <SID>hi("markdownHeadingDelimiter",  s:gui0D, "", s:cterm0D, "", "")
 " Git Highlighting
 call <SID>hi("gitCommitOverflow",  s:gui08, "", s:cterm08, "", "")
 call <SID>hi("gitCommitSummary",   s:gui0B, "", s:cterm0B, "", "")
-  
+
 " GitGutter Highlighting
 call <SID>hi("GitGutterAdd",     s:gui0B, s:gui01, s:cterm0B, s:cterm01, "")
 call <SID>hi("GitGutterChange",  s:gui0D, s:gui01, s:cterm0D, s:cterm01, "")
